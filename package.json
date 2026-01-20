@@ -1,0 +1,14 @@
+{
+  "name": "news-api",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.71.2",
+    "@vercel/kv": "^3.0.0",
+    "rss-parser": "^3.13.0"
+  }
+}
